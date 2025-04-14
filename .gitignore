@@ -1,0 +1,52 @@
+# Arquivos temporários do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambientes virtuais
+venv/
+env/
+.venv/
+.env/
+
+# Arquivos de build e distribuição
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Arquivos de cache
+.pytest_cache/
+.coverage
+coverage.xml
+*.cache
+.cache/
+
+# Arquivos de IDEs e editores
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Arquivos de logs
+*.log
+logs/
+
+# Arquivos de dados locais
+*.sqlite3
+*.db
+*.csv
+*.tsv
+*.jsonl
+
+# Arquivos de configuração local
+.env
+*.local
+config.local.yml
+config.local.yaml
+
+# Outros arquivos temporários
+*.bak
+*.swp
+*~
+.DS_Store
